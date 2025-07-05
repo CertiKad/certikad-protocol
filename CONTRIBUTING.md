@@ -8,7 +8,6 @@ This document is a guide to help you through the process of contributing.
 
 This project and everyone participating in it is governed by the [CertiKad Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [contact@certikad.io](mailto:contact@certikad.io).
 
-*(Note: We will create the CODE_OF_CONDUCT.md file next. It's a standard practice to have this.)*
 
 ## How Can I Contribute?
 
