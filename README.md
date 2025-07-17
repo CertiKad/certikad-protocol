@@ -72,6 +72,6 @@ This development branch contains the latest features and improvements built on t
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/CertiKad/certikad-protocol.git
    cd certikad
    git checkout dev
