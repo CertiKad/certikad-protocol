@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #007A7A;
+  --heading: #2E333B;
+  --text: #5F6B7A;
+  --background: #F8F9FA;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prose {
+  color: var(--text);
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: var(--heading);
+}
+
+.prose strong {
+  color: var(--heading);
+}
+
+.prose a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose code {
+  background-color: #eef2f5;
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 3px;
+  color: var(--heading);
+}
+
+.prose pre {
+  background-color: #eef2f5;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-heading {
+  color: var(--heading);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.bg-heading {
+  background-color: var(--heading);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
+
+.hover\:bg-accent:hover {
+  background-color: var(--accent);
+}
+
+.hover\:text-accent:hover {
+  color: var(--accent);
+}
