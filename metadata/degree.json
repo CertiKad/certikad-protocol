@@ -1,0 +1,13 @@
+{
+  "name": "BSc Computer Science – Michael Johnson",
+  "description": "Bachelor of Science granted by Stark University via CertiKad.",
+  "image": "ipfs://bafybeifmjexdrrnfsui3z2jwzdlmmli5fbkiijbtni5yycyk2dszdikfpu/logo.png",
+  "external_url": "https://stark.edu/verify/XYZ123",
+  "attributes": [
+    { "trait_type": "Credential Type", "value": "Degree" },
+    { "trait_type": "Field",           "value": "Computer Science" },
+    { "trait_type": "Issuer",          "value": "Stark University" },
+    { "trait_type": "Recipient",       "value": "Michael Johnson" },
+    { "trait_type": "Date Issued",     "value": "2025-07-17" }
+  ]
+}
